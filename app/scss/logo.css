@@ -1,0 +1,57 @@
+.logo__holder {
+    height: 80px;
+    width: 80px;
+    position: relative;
+    background-color: hsl(0, 0%, 98%);
+}
+
+.logo__e {
+    height: 70%;
+    width: 10%;
+    background-color: hsl(136, 65%, 51%);
+    position: absolute;
+    top: 10%;
+    left: 5%;
+}
+
+.logo__e__spans{
+    height: 10%;
+    width: 36%;
+    background-color: hsl(136, 65%, 51%);
+    position: absolute;
+    top: 10%;
+    left: 5%;
+}
+
+.logo__e__spans::before{
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-color: hsl(136, 65%, 51%);
+    position: absolute;
+    top: 350%;
+    left: 0%;
+}
+
+.logo__e__spans::after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-color: hsl(136, 65%, 51%);
+    position: absolute;
+    top: 650%;
+    left: 0%;
+}
+
+.logo__c {
+  width: 80%;
+  height: 80%;
+  background: transparent;
+  border-radius: 100%;
+  border: 7px solid hsl(136, 65%, 51%);
+  border-color: hsl(136, 65%, 51%) hsl(136, 65%, 51%) transparent transparent;
+  transform: rotate(-135deg);
+  position: absolute;
+  top: 9%;
+  left: 50%
+}
